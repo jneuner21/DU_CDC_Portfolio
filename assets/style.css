@@ -1,23 +1,15 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 40pt;
   color: white;
+  box-sizing: border-box;
 }
 
 .pagetitle {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   top: 200px;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1000%;
-  position: absolute;
-}
-
-.bannerimage {
-  position: relative;
-  width: 100%;
-  background-position: center;
-  filter: blur(8px);
+  background-image: url(./references/purple.jpg);
 }
 
 body {
@@ -28,13 +20,67 @@ body {
 
 .headerlist {
   list-style-type: none;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  float: right;
-  margin: auto;
+  text-decoration: none;
+  padding-right: 20px;
+  overflow: hidden;
+  background-color: #280067;
   font-size: 200%;
+  border-top: white solid 2px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .listItem {
+  float: right;
   display: inline-block;
   margin-left: 25px;
+  text-decoration: none;
+}
+
+.NAV {
+  display: block;
+  height: 50px;
+}
+
+h2 {
+  font-size: 200%;
+  display: inline;
+}
+
+.aboutMeContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 100%;
+  padding: 30px;
+}
+
+.aboutMeHeader {
+  width: 50%;
+  font-size: 300%;
+}
+
+.aboutMeText {
+  margin: auto;
+  text-align: center;
+}
+
+.workContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 100%;
+  padding: 30px;
+}
+
+.workHeader {
+  width: 50%;
+  font-size: 300%;
+}
+
+.contactContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 100%;
+  padding: 30px;
+}
+
+.contactFooter_ {
 }
