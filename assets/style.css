@@ -10,6 +10,7 @@
   top: 200px;
   font-size: 1000%;
   background-image: url(./references/purple.jpg);
+  background-size: cover;
 }
 
 body {
@@ -20,12 +21,12 @@ body {
 
 .headerlist {
   list-style-type: none;
-  text-decoration: none;
   padding-right: 20px;
   overflow: hidden;
   background-color: #280067;
   font-size: 200%;
   border-top: white solid 2px;
+  border-bottom: white solid 2px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,6 +34,9 @@ body {
   float: right;
   display: inline-block;
   margin-left: 25px;
+}
+
+.listItem a {
   text-decoration: none;
 }
 
@@ -49,38 +53,81 @@ h2 {
 .aboutMeContainer {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
   padding: 30px;
 }
 
 .aboutMeHeader {
+  flex: 1;
   width: 50%;
   font-size: 300%;
+  text-align: right;
 }
 
 .aboutMeText {
+  flex: 2;
   margin: auto;
-  text-align: center;
+  text-align: left;
+  border-left: solid #280067 1px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.aboutMeImage {
+  width: 200px;
+  height: 200px;
+  margin: 25px;
 }
 
 .workContainer {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   padding: 30px;
 }
 
 .workHeader {
+  flex: 1;
   width: 50%;
   font-size: 300%;
 }
 
-.contactContainer {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  width: 100%;
-  padding: 30px;
+.placeHolder1 {
+  flex: 2;
 }
 
-.contactFooter_ {
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #280067;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: white solid 2px;
+}
+
+.contactFooter {
+  flex: 2;
+  justify-content: center;
+  margin: Auto;
+  font-size: 150%;
+}
+
+.contactImage {
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+}
+
+.footerList {
+  padding-top: 10px;
+  text-align: left;
 }
