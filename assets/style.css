@@ -82,22 +82,54 @@ h2 {
 }
 
 .workContainer {
+  flex-flow: row wrap;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  flex-direction: row;
   width: 100%;
   padding: 30px;
 }
 
 .workHeader {
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
   width: 50%;
   font-size: 300%;
+  text-align: right;
 }
 
 .placeHolder1 {
-  flex: 2;
+  background-color: #280067;
+  width: 1020px;
+  height: 500px;
+  margin: 10px;
+}
+
+.placeHolder2 {
+  background-color: #280067;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+}
+
+.placeHolder3 {
+  background-color: #280067;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+}
+
+.placeHolder4 {
+  background-color: #280067;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+}
+
+.placeHolder5 {
+  background-color: #280067;
+  width: 500px;
+  height: 200px;
+  margin: 10px;
 }
 
 .contactContainer {
