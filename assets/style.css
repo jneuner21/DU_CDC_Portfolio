@@ -68,6 +68,7 @@ h2 {
   flex: 2;
   margin: auto;
   text-align: left;
+  padding-right: 20px;
 }
 
 .aboutMeImage {
@@ -139,23 +140,47 @@ h2 {
 }
 
 #placeHolder1 {
-  background-image: url(./references/bnwwater.jpeg);
+  background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
+    url(./references/bnwwater.jpeg);
   background-size: cover;
+}
+
+#placeHolder1:hover {
+  cursor: pointer;
+  background-image: url(./references/bnwwater.jpeg);
 }
 
 #placeHolder2 {
-  background-image: url(./references/bnwmountain.jpeg);
+  background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
+    url(./references/bnwmountain.jpeg);
   background-size: cover;
+}
+
+#placeHolder2:hover {
+  cursor: pointer;
+  background-image: url(./references/bnwmountain.jpeg);
 }
 
 #placeHolder3 {
-  background-image: url(./references/bnwwood.jpeg);
+  background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
+    url(./references/bnwwood.jpeg);
   background-size: cover;
 }
 
+#placeHolder3:hover {
+  cursor: pointer;
+  background-image: url(./references/bnwwood.jpeg);
+}
+
 #placeHolder4 {
-  background-image: url(./references/bnwforrest.jpeg);
+  background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
+    url(./references/bnwforrest.jpeg);
   background-size: cover;
+}
+
+#placeHolder4:hover {
+  cursor: pointer;
+  background-image: url(./references/bnwforrest.jpeg);
 }
 
 .contactContainer {
