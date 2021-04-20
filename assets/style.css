@@ -16,7 +16,6 @@
 body {
   background-color: black;
   line-height: 1.5;
-  padding: 20px;
 }
 
 .headerlist {
@@ -61,7 +60,6 @@ h2 {
 
 .aboutMeHeader {
   flex: 1;
-  width: 50%;
   font-size: 300%;
   text-align: right;
 }
@@ -70,72 +68,99 @@ h2 {
   flex: 2;
   margin: auto;
   text-align: left;
-  border-left: solid #280067 1px;
-  margin-left: 20px;
-  padding-left: 20px;
 }
 
 .aboutMeImage {
   width: 200px;
   height: 200px;
-  margin: 25px;
+}
+
+.aboutMeInformation {
+  display: flex;
+  flex: 3;
+  border-left: solid #280067 1px;
+  margin-left: 20px;
+  padding-left: 30px;
 }
 
 .workContainer {
-  flex-flow: row wrap;
-  align-items: center;
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   padding: 30px;
 }
 
 .workHeader {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
+  flex: 1;
   font-size: 300%;
   text-align: right;
 }
 
-.placeHolder1 {
-  background-color: #280067;
-  width: 1020px;
+.mainPlaceHolder {
+  border: solid 5px #280067;
+  border-top: solid 30px #280067;
+  background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
+    url(./references/bnwlava.jpeg);
+  background-size: cover;
+  width: 100%;
   height: 500px;
-  margin: 10px;
 }
 
-.placeHolder2 {
-  background-color: #280067;
-  width: 500px;
-  height: 200px;
-  margin: 10px;
+.mainPlaceHolder:hover {
+  cursor: pointer;
+  background-image: url(./references/bnwlava.jpeg);
 }
 
-.placeHolder3 {
-  background-color: #280067;
-  width: 500px;
-  height: 200px;
-  margin: 10px;
+.textBlock {
+  position: absolute;
 }
 
-.placeHolder4 {
-  background-color: #280067;
-  width: 500px;
-  height: 200px;
-  margin: 10px;
+.projects {
+  flex: 3;
+  border-left: solid #280067 1px;
+  margin-left: 20px;
+  padding-left: 30px;
 }
 
-.placeHolder5 {
+.subprojects {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  margin: 10px 0px;
+}
+
+.placeHolder {
+  border: solid 5px #280067;
+  border-top: solid 10px #280067;
+  cursor: pointer;
   background-color: #280067;
-  width: 500px;
+  width: 49%;
   height: 200px;
-  margin: 10px;
+}
+
+#placeHolder1 {
+  background-image: url(./references/bnwwater.jpeg);
+  background-size: cover;
+}
+
+#placeHolder2 {
+  background-image: url(./references/bnwmountain.jpeg);
+  background-size: cover;
+}
+
+#placeHolder3 {
+  background-image: url(./references/bnwwood.jpeg);
+  background-size: cover;
+}
+
+#placeHolder4 {
+  background-image: url(./references/bnwforrest.jpeg);
+  background-size: cover;
 }
 
 .contactContainer {
   display: flex;
   justify-content: center;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
