@@ -13,6 +13,9 @@ when you open my application your page should look like this
 
 ![alt text](./assets/references/img.jpg)
 
+CONTRIBUTION
+\*All imiges were pulled from Unsplash.com
+
 CONTACT INFORMATION
 For any reason you want to colaborate or contact me about this code the following links are the best ways to reach me
 
