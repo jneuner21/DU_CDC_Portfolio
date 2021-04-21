@@ -15,6 +15,11 @@ when you open my application your page should look like this
 
 CONTRIBUTION
 \*All imiges were pulled from Unsplash.com
+Kai Sun-- black and white mountains
+Adrien Olichon-- black and white lava
+Mingh lin-- single tree in forrest fog
+su kek-- Northern Hardwood forest photo
+Kai Sun-- black and white morning waves
 
 CONTACT INFORMATION
 For any reason you want to colaborate or contact me about this code the following links are the best ways to reach me
