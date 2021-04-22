@@ -11,7 +11,7 @@ Before you continue, ensure you have met the following requirements:
 
 when you open my application your page should look like this
 
-![alt text](./assets/references/img.jpg)
+![image of what page should look like](./assets/references/img.jpg)
 
 CONTRIBUTION
 \*All imiges were pulled from Unsplash.com
