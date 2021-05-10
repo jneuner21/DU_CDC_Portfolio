@@ -102,7 +102,7 @@ h2 {
   border: solid 5px #280067;
   border-top: solid 30px #280067;
   background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
-    url(./references/bnwlava.jpeg);
+    url(./references/beerMeSample.JPG);
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -110,7 +110,7 @@ h2 {
 
 .mainPlaceHolder:hover {
   cursor: pointer;
-  background-image: url(./references/bnwlava.jpeg);
+  background-image: url(./references/beerMeSample.JPG);
 }
 
 .textBlock {
@@ -146,13 +146,13 @@ h2 {
   background-size: cover;
 }
 
-.projects a {
-  text-decoration: none;
-}
-
 #placeHolder1:hover {
   cursor: pointer;
   background-image: url(./references/bnwwater.jpeg);
+}
+
+.projects a {
+  text-decoration: none;
 }
 
 #placeHolder2 {
