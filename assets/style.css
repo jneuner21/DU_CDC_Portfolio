@@ -241,7 +241,7 @@ h2 {
   text-align: left;
 }
 
-@media all and (min-width: 600px) {
+@media all and (max-width: 600px) {
   .aboutMeContainer {
     flex-direction: column;
   }
@@ -251,7 +251,7 @@ h2 {
   }
 
   .aboutMeText {
-    font-size: 0.5rem;
+    font-size: 1rem;
     width: 100%;
   }
 
@@ -260,10 +260,10 @@ h2 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   h2 {
-    font-size: 1rem;
+    display: none;
   }
 }
