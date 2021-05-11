@@ -142,13 +142,13 @@ h2 {
 
 #placeHolder1 {
   background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
-    url(./references/bnwwater.jpeg);
+    url(./references/dayPlannerSample.JPG);
   background-size: cover;
 }
 
 #placeHolder1:hover {
   cursor: pointer;
-  background-image: url(./references/bnwwater.jpeg);
+  background-image: url(./references/dayPlannerSample.JPG);
 }
 
 .projects a {
@@ -157,13 +157,13 @@ h2 {
 
 #placeHolder2 {
   background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
-    url(./references/bnwmountain.jpeg);
+    url(./references/PasswordSample.JPG);
   background-size: cover;
 }
 
 #placeHolder2:hover {
   cursor: pointer;
-  background-image: url(./references/bnwmountain.jpeg);
+  background-image: url(./references/PasswordSample.JPG);
 }
 
 #placeHolder3 {
@@ -186,6 +186,28 @@ h2 {
 #placeHolder4:hover {
   cursor: pointer;
   background-image: url(./references/bnwforrest.jpeg);
+}
+
+#placeHolder5 {
+  background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
+    url(./references/bnwlava.jpeg);
+  background-size: cover;
+}
+
+#placeHolder5:hover {
+  cursor: pointer;
+  background-image: url(./references/bnwlava.jpeg);
+}
+
+#placeHolder6 {
+  background-image: linear-gradient(rgb(89, 0, 255, 0.1), rgba(89, 0, 255, 0.1)),
+    url(./references/bnwwater.jpeg);
+  background-size: cover;
+}
+
+#placeHolder6:hover {
+  cursor: pointer;
+  background-image: url(./references/bnwwater.jpeg);
 }
 
 .contactContainer {
