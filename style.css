@@ -1,0 +1,49 @@
+.pagetitle {
+  color: white;
+  font-family: "Amatic SC";
+  text-align: center;
+  top: 200px;
+  font-size: 1000%;
+  background-image: url(./assets/purple.jpg);
+  background-size: cover;
+  border-bottom: solid white 1px;
+}
+
+.navbar {
+  border-bottom: solid white 1px;
+}
+.titleText {
+  font-family: "Amatic SC";
+  font-size: 400%;
+}
+
+.workText {
+  font-family: "Amatic SC";
+  font-size: 400%;
+  margin-right: 45px;
+}
+
+.textbox {
+  padding-left: 40px;
+  margin-right: 40px;
+  border-left: solid #280067 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.gradient {
+  background: #000000;
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(40, 0, 103, 0.5)
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(40, 0, 103, 0.5)
+  );
+}

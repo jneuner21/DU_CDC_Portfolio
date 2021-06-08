@@ -5,69 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack Neuner's Portfolio</title>
-    <link rel="stylesheet" href="./assets/reset.css"/>
-    <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="shortcut icon" type="image/jpg" href="/assets/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Neucha&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-
-<body>
-    <header class= "containerTitle"> 
-        <h1 class= "pagetitle">Jack Neuner</h1>
+<body style="background-color: black">
+    <header class= "containerTitle fluid"> 
+        <h1 class= "pagetitle text-center mb-0" style="height: 225px">Jack Neuner</h1>
     </header>
 
-    <nav class="NAV">
-        <ul class="headerlist">
-            <li class="listItem">
-                <a href="#Work">Work</a>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #280067;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="https://drive.google.com/file/d/1qguBprW-K5TsTaR-5wyYakqvktdgZ61-/view?usp=sharing" target="_blank">Resume</a>
             </li>
-            <li class="listItem">
-                <a href="https://drive.google.com/file/d/1qguBprW-K5TsTaR-5wyYakqvktdgZ61-/view?usp=sharing" target="_blank">Resume</a>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="https://github.com/jneuner21" target="_blank">GitHub</a>
             </li>
-            <li class="listItem">
-                <a href="http://www.linkedin.com/in/Jack-Neuner" target="_blank">Linkedin</a>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="http://www.linkedin.com/in/Jack-Neuner" target="_blank">Linkedin</a>
             </li>
-            <li class="listItem">
-                <a href="https://github.com/jneuner21" target="_blank">Github</a>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#contact">Contact</a>
             </li>
-            <li class="listItem">
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+          </ul>
+          </span>
+        </div>
+      </div>
     </nav>
 
-    <section class= "aboutMeContainer">
-        <h2 class= "aboutMeHeader">About Me</h2>
-        <article class="aboutMeInformation">
-            <p class= "aboutMeText">    My name is Jack Neuner and I'm currently a student with experience in graphic design. I have a background focused in retail and sales enviroments, training, and product design. I'm fueled by my passion for understanding the nuances of design. I consider myself an artist, eager to both build on my academic foundations in web development and take my outside experiences and apply them to this new field that is rapidly expanding. Unfortunaly, like many others I was furloughed because of the Covid-19 pandemic in early 2020. I was given time to really think about what kind of future I wanted for myself. fortunatly,my interest in coding was solidified as an actual career option. Moving forward I want to take what I have learned and applied in graphic design to this new field exploring front end web development.
-            </p>
-            <img class= "aboutMeImage" src="./assets/references/bnwjack.jpg" alt= "black and white photo of Jack">
+    <section class= "row m-5">
+      <h2 class= "titleText text-center text-white col-2 mt-4 fluid">About Me</h2>
+      <article class="col-8">
+          <p class= "textbox text-white">    My name is Jack Neuner and I'm currently a student with experience in graphic design. I have a background focused in retail and sales enviroments, training, and product design. I'm fueled by my passion for understanding the nuances of design. I consider myself an artist, eager to both build on my academic foundations in web development and take my outside experiences and apply them to this new field that is rapidly expanding. Unfortunaly, like many others I was furloughed because of the Covid-19 pandemic in early 2020. I was given time to really think about what kind of future I wanted for myself. fortunatly,my interest in coding was solidified as an actual career option. Moving forward I want to take what I have learned and applied in graphic design to this new field exploring front end web development.
+          </p>
         </article>
+        <img class= "col-2" src="./assets/bnwjack.jpg" alt= "black and white photo of Jack" style="height:200px; width: auto;">
+  </section>
+
+
+  <section class="d-flex mb-5">
+    <h2 class="workText text-center text-white col-2">Work<h2>
+      <div class="textbox">
+        <a href="https://tjcourey.github.io/beerMe-international/" target="_blank">
+            <div class="card bg-dark text-white col-10 m-3">
+              <img class="card-img" src="./assets/beerMeSample.JPG" alt="BeerMe Card image" style="height: 400px;">
+              <div class="card-img-overlay gradient">
+                <p class="card-text">BeerMe - Web APIs</p>
+                <p class="card-text fs-5">BeerMe International is an app designed to provide you with a random beer suggestion based of a clients input of alcohol content and desired bitterness.</p>
+              </div>
+            </div>
+        </a>
+        <div class="d-flex flex-row">
+          <a href="https://jneuner21.github.io/Work-Day-Scheduler-DU_CBC/" target="_blank">
+            <div class="card bg-dark text-white col-5 m-3" style="width: 590px;">
+              <img class="card-img" style="height: 250px" src="./assets/dayPlannerSample.JPG" alt="Day Planner Card image">
+              <div class="card-img-overlay gradient">
+                <p class="card-text fs-4">Day Planner- JavaScript</p>
+                <p class="card-text fs-5">...</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://jneuner21.github.io/Javascript_DU_CBC/" target="_blank">
+            <div class="card bg-dark text-white col-5 m-3" style="width: 590px">
+              <img class="card-img" style="height: 250px;" src="./assets/PasswordSample.JPG" alt="Password Gen Card image">
+              <div class="card-img-overlay gradient">
+                <p class="card-text fs-4">Password Generator</p>
+                <p class="card-text fs-5">Using JavaScript to create passwords</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <a href="https://mod-ify.herokuapp.com/" target="_blank">
+          <div class="card bg-dark text-white col-10 m-3">
+            <img class="card-img" style="height: 400px;" src="./assets/modifySample.JPG" alt="Modify Card image">
+            <div class="card-img-overlay gradient">
+              <p class="card-text">MOD-ify (my first full stack application)</p>
+              <p class="card-text fs-5">Using this Full Stack application, a user can interact with Mod-ify the music playlist generator</p>
+            </div>
+          </div>
+        </a>
+        <div class="d-flex flex-row">
+          <a href="https://github.com/jneuner21/EmployeeTracker_DU_CBC">
+            <div class="card bg-dark text-white col-5 m-3" style="width: 590px;">
+              <img class="card-img" style="height: 250px" src="./assets/employeetrackerSample.JPG" alt="Day Planner Card image">
+              <div class="card-img-overlay gradient">
+                <p class="card-text fs-4">Employee Tracker - Node.JS</p>
+                <p class="card-text fs-5">A solution for managing a company's employees using node, inquirer, and MySQL.</p>
+              </div>
+            </div>
+          </a>
+          <a>
+            <div class="card bg-dark text-white col-5 m-3" style="width: 590px">
+              <img class="card-img" style="height: 250px;" src="./assets/notetakerSample.png" alt="Password Gen Card image">
+              <div class="card-img-overlay gradient">
+                <p class="card-text fs-4">Day Planner- JavaScript</p>
+                <p class="card-text fs-5">This application uses an Express.js back end and will save and retrieve note data from a JSON file.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </section>
 
-    <section class="workContainer">
-        <h2 class="workHeader" id="Work">Work</h2>
-        <a href="https://tjcourey.github.io/beerMe-international/" target="_blank"><div class="projects"><div  class="mainPlaceHolder">Beer Me- Web APIs</div></a>
-            <article class="subprojects">
-                <div class="placeHolder" id="placeHolder1">Day Planner- JavaScript</a></div>
-                <div class="placeHolder" id="placeHolder2">Password Generator</div>
-            </article>
-            <article class="subprojects">
-                <div class="placeHolder" id="placeHolder3">Project GoDot</div>
-                <div class="placeHolder" id="placeHolder4"> Project Bootstap</div>
-            </article>
-            <article class="subprojects">
-                <div class="placeHolder" id="placeHolder5">Project HTML/CSS</div>
-                <div class="placeHolder" id="placeHolder6"> Project Jquery</div>
-            </article>
-        </div>
-    </section>
-    
-    <footer class="contactContainer" id="contact">
-        <img class= "contactImage" src="https://www.vippng.com/png/full/82-828935_vector-instagram-gray-social-media-icons-png-in.png" alt="socialmedialogos">
-        <ul class= "footerList"> 
-            <li>Jneuner2165@gmail.com</li>
-            <li>(303) 907-2165</li>
-            <li>@JNeuner21</li>
-        </ul>
-    </footer>
+
+
+  <footer class="contactContainer fluid sticky-bottom d-flex justify-content-center" id="contact" style="background-color: #280067; border-top: 1px solid white;">
+    <img class= "mt-2 mb-2" style="height: 75px" src="https://www.vippng.com/png/full/82-828935_vector-instagram-gray-social-media-icons-png-in.png" alt="socialmedialogos">
+    <ul class= "footerList text-white mt-2 p-0"> 
+        <li>Jneuner2165@gmail.com</li>
+        <li>(303) 907-2165</li>
+        <li>@JNeuner21</li>
+    </ul>
+  </footer>
 </body>
 </html>
